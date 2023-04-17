@@ -141,13 +141,13 @@ Author:
 				
 			},
 			EiStickyMenu: function (){
-				jQuery(window).on('scroll', function() {
-					if (jQuery(window).scrollTop() > 100) {
-						jQuery('.main-header-eight').addClass('eisticky-menu-bg-overlay ')
-					} else {
-						jQuery('.main-header-eight').removeClass('eisticky-menu-bg-overlay ')
-					}
-				})
+				// jQuery(window).on('scroll', function() {
+				// 	if (jQuery(window).scrollTop() > 100) {
+				// 		jQuery('.main-header-eight').addClass('eisticky-menu-bg-overlay ')
+				// 	} else {
+				// 		jQuery('.main-header-eight').removeClass('eisticky-menu-bg-overlay ')
+				// 	}
+				// })
 				$('.appi-ei-open_mobile_menu').on("click", function() {
 					$('.appi-ei-mobile_menu_wrap').toggleClass("mobile_menu_on");
 				});
